@@ -18,5 +18,9 @@ public class ArrayListExample {
         for(String fu : fruits){
            System.out.println(" " + fu);
         }
+
+        // Lambda
+        fruits.forEach( f -> System.out.println(" Fruits " + f));
+
     }
 }
