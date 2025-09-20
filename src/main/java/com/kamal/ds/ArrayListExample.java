@@ -22,5 +22,13 @@ public class ArrayListExample {
         // Lambda
         fruits.forEach( f -> System.out.println(" Fruits " + f));
 
+        // insert with index
+        fruits.add(1,"Mango");
+
+        // update
+        fruits.set(1,"Big Mango");
+
+
+
     }
 }
