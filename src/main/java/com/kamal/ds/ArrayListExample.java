@@ -28,7 +28,12 @@ public class ArrayListExample {
         // update
         fruits.set(1,"Big Mango");
 
+        // remove object or index
+        fruits.remove(1);
+        fruits.remove("Apple");
 
+
+        fruits.forEach( f -> System.out.println(" update " + f));
 
     }
 }
