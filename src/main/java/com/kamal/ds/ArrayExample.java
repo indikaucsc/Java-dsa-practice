@@ -13,14 +13,11 @@ public class ArrayExample {
 
         System.out.println(numbers[3]);
 
-
         // update
         numbers[3] = 24;
 
         System.out.println("After update :" +numbers[3]);
-
         System.out.println("Length : "+ numbers.length);
-
 
         // Loop / Iterate
         for(int a : numbers){
